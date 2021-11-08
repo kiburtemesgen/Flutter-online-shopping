@@ -55,6 +55,7 @@ class _MyAppState extends State<MyApp> {
 
     ],
     child: Consumer<BottomNavigation>(builder: (ctx, bottom,_) =>MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
